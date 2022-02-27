@@ -68,4 +68,8 @@
     <bool name="config_telephony5gNonStandalone">true</bool>
     <!-- CPU temperature -->
     <string name="config_cpu_temp_path">/sys/class/thermal/thermal_zone53/temp</string>
+    <!-- The maximum range of gamma adjustment possible using the screen
+         auto-brightness adjustment setting. -->
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">150%</fraction>
+
 </resources>
