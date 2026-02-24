@@ -124,6 +124,8 @@ PRODUCT_COPY_FILES += \
 
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-dolby.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-dolby.xml
 
 # DRM
 PRODUCT_PACKAGES += \
