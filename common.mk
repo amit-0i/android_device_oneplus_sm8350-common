@@ -168,6 +168,9 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
+# IR Remote
+$(call inherit-product, vendor/oneplus/ir/config.mk)
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.default \
