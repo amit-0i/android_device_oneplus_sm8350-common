@@ -215,6 +215,9 @@ PRODUCT_COPY_FILES += \
 
 $(call soong_config_set_bool,stagefright,target_disable_thumbnail_block_model,true)
 
+# Oplus camera
+$(call inherit-product, vendor/oplus/camera/opluscamera.mk)
+
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/generic/generic.mk)
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
