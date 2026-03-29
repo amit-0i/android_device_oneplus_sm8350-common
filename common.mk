@@ -125,6 +125,8 @@ $(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
 
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-dolby.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-dolby.xml
 
 # DRM
 PRODUCT_PACKAGES += \
