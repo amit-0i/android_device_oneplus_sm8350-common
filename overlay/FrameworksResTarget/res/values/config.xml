@@ -61,4 +61,6 @@
         <item>0:2:15</item> <!-- ID0:Fingerprint:Strong -->
     </string-array>
 
+    <!-- CPU temperature -->
+    <string name="config_cpu_temp_path">/sys/class/thermal/thermal_zone53/temp</string>
 </resources>
